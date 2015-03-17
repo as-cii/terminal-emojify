@@ -27,8 +27,10 @@ Edit your .gitconfig and define this alias:
 
 ```
 [alias]
-  hist = !git --no-pager log --color --pretty=format:'%C(yellow)%h%C(reset)%C(bold red)%d%C(reset) %s %C(black)— %an (%ad)%C(reset)' --relative-date | emojify | less -R
+  hist = !git --no-pager log --color --pretty=format:'%C(yellow)%h%C(reset)%C(bold red)%d%C(reset) %s %C(black)— %an (%ad)%C(reset)' --relative-date | emojify | less -r
 ```
+
+:warning: [Make sure you're running the latest version of `less`](https://github.com/as-cii/terminal-emojify/issues/1).
 
 Then run the command below on your repo:
 
