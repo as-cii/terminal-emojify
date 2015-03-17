@@ -1,5 +1,6 @@
 require "terminal/emojify/version"
 require "terminal/emojify/maybe"
+require "gemoji"
 
 module Terminal
   module Emojify
