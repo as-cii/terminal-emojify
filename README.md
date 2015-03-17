@@ -21,17 +21,19 @@ $ gem install terminal-emojify
 
 ### Beautiful git history
 
+(straight from my .gitconfig :sunglasses:)
+
 Edit your .gitconfig and define this alias:
 
 ```
 [alias]
-  elog = --no-pager log | emojify | less
+  hist = !git --no-pager log --color --pretty=format:'%C(yellow)%h%C(reset)%C(bold red)%d%C(reset) %s %C(black)— %an (%ad)%C(reset)' --relative-date | emojify | less -R
 ```
 
 Then run the command below on your repo:
 
 ```bash
-$ git elog
+$ git hist
 ```
 
 ### Psycho
