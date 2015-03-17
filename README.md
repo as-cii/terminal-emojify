@@ -46,6 +46,8 @@ $ git hist
 $ echo ":hocho: :scream: :shower:" | emojify
 ```
 
+![Screenshot](http://i.imgur.com/QPksGcG.png)
+
 ### Many others
 
 What about you? How do you use it? Please, open an issue so that I can include
