@@ -36,6 +36,8 @@ Then run the command below on your repo:
 $ git hist
 ```
 
+![Screenshot](http://i.imgur.com/D5AqNUz.png)
+
 ### Psycho
 
 (courtesy of http://emojisaurus.com/phrases/402-psycho)
