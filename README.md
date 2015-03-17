@@ -1,6 +1,6 @@
 # Terminal Emojify
 
-Converts emoji aliases to raw characters.
+Outputs emoji aliases as raw characters.
 
 ## Installation
 
