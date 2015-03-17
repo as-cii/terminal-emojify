@@ -50,8 +50,7 @@ $ echo ":hocho: :scream: :shower:" | emojify
 
 ### Many others
 
-What about you? How do you use it? Please, open an issue so that I can include
-other creative usages of this utility :bow:.
+What about you? Please, open an issue describing how you are using it and I will include it here :bow:.
 
 ## Contributing
 
