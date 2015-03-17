@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "terminal/emojify"
+
+begin
+  $stdin.each_line { |line| puts Terminal::Emojify.call(line) }
+rescue Errno::EPIPE
+  exit(74)
+end
