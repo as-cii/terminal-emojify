@@ -30,8 +30,6 @@ Edit your .gitconfig and define this alias:
   hist = !git --no-pager log --color --pretty=format:'%C(yellow)%h%C(reset)%C(bold red)%d%C(reset) %s %C(black)— %an (%ad)%C(reset)' --relative-date | emojify | less -r
 ```
 
-:warning: [Make sure you're running the latest version of `less`](https://github.com/as-cii/terminal-emojify/issues/1).
-
 Then run the command below on your repo:
 
 ```bash
@@ -39,6 +37,8 @@ $ git hist
 ```
 
 ![Screenshot](http://i.imgur.com/D5AqNUz.png)
+
+Warning: if your terminal displays weird characters, please make sure you're running the latest version of `less`.
 
 ### Psycho
 
