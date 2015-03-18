@@ -38,7 +38,7 @@ $ git hist
 
 ![Screenshot](http://i.imgur.com/D5AqNUz.png)
 
-Warning: if your terminal displays weird characters, please make sure you're running the latest version of `less`.
+*If your terminal displays weird characters, please make sure you're running the latest version of `less` before reporting an issue. Thanks! :beers:*
 
 ### Psycho
 
