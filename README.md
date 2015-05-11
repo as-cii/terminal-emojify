@@ -40,7 +40,7 @@ $ git hist
 
 *If your terminal displays weird characters, please make sure you're running at least version `471` of `less` before reporting an issue. Thanks! :beers:*
 
-*You can install `less` via [Homebrew](http://brew.sh):*
+*You can install `less-471` _(currently in beta since 14 Dec 2014)_ via [Homebrew](http://brew.sh):*
 
 ```bash
 `brew install --devel homebrew/dupes/less`
