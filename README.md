@@ -27,7 +27,7 @@ Edit your .gitconfig and define this alias:
 
 ```
 [alias]
-  hist = !git --no-pager log --color --pretty=format:'%C(yellow)%h%C(reset)%C(bold red)%d%C(reset) %s %C(black)— %an (%ad)%C(reset)' --relative-date | emojify | less -r
+  hist = !git --no-pager log --color --pretty=format:'%C(yellow)%h%C(reset)%C(bold red)%d%C(reset) %s %C(black)— %an (%ad)%C(reset)' --relative-date | emojify | less --RAW-CONTROL-CHARS
 ```
 
 Then run the command below on your repo:
@@ -38,7 +38,13 @@ $ git hist
 
 ![Screenshot](http://i.imgur.com/D5AqNUz.png)
 
-*If your terminal displays weird characters, please make sure you're running the latest version of `less` before reporting an issue. Thanks! :beers:*
+*If your terminal displays weird characters, please make sure you're running at least version `471` of `less` before reporting an issue. Thanks! :beers:*
+
+*You can install `less-471` _(currently in beta since 14 Dec 2014)_ via [Homebrew](http://brew.sh):*
+
+```bash
+`brew install --devel homebrew/dupes/less`
+```
 
 ### Psycho
 
